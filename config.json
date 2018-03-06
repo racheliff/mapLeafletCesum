@@ -1,0 +1,16 @@
+{
+  "baseLayers": {
+    "current": "naturalEarth",
+    "bing": {
+      "key": "AroazdWsTmTcIx4ZE3SIicDXX00yEp9vuRZyn6pagjyjgS-VdRBfBNAVkvrucbqr"
+    },
+    "wms": {
+      "url": "https://demo.boundlessgeo.com/geoserver/ows?",
+      "layers": ["ne:ne"]
+    },
+    "naturalEarth": {
+      "url": "https://cesiumjs.org/Cesium/Build/Cesium/Assets/Textures/NaturalEarthII/{z}/{x}/{reverseY}.jpg",
+      "maximumLevel": 2
+    }
+  }
+}
